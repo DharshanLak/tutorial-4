@@ -1,0 +1,15 @@
+---
+title: "Models"
+format: html
+excute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: FALSE
+
+library(tidyverse)
+```
+
+We have survey data from March 2024 conducted by YouGov, which includes responses from 1,559 US adult citizens. We seek to determine the proportion of all votes cast for Joe Biden in the 2024 election based on this data.
